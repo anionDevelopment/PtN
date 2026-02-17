@@ -1,10 +1,10 @@
-FROM golang:1.25.4-alpine AS builder
+FROM {image_go} AS builder
 
 WORKDIR /app
 COPY PtN .
 RUN go build -o program main.go
 
-FROM alpine:3.22.2
+FROM {image_alpine}
 RUN apk --no-cache add ca-certificates bash
 WORKDIR /root/
 COPY --from=builder /app/program .
