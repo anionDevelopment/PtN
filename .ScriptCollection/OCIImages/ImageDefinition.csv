@@ -1,0 +1,3 @@
+ImageName;UpstreamRegistryAddress;DefaultTag
+Alpine;docker.io/library/alpine;3.22.2
+Go;docker.io/library/golang;13.2-slim
