@@ -8,13 +8,14 @@ For a general reference of the PtN-project see [here](https://github.com/anionDe
 ## Why?
 
 Why do we need another tool for that usecase?
+It is not an additional tool, it is a connection-tool in the middle.
 I wanted to forward alerts from the prometheus-alertmanager to a ntfy-server but unfortunately they have different formats/standards/protocols to send/receive data.
 And there are already tools which are adding exactly this compatibility-proxy (for example [this](https://github.com/alexbakker/alertmanager-ntfy) and [that](https://github.com/pinpox/alertmanager-ntfy)) but I could not find a container-image for these tools, at least at this moment where I needed it.
 So I decided to relase a small proxy-server which is doing exactly the required data-conversion between alertmanager and ntfy by myself.
 
 ## Quick-start
 
-Just place PtN beside your alertmanager. See the following `docker-compose.yml` for an example:
+Just place PtN beside your alertmanager in your `docker-compose.yml`-file. See the following `docker-compose.yml`-file for an example:
 
 ```yaml
 services:
