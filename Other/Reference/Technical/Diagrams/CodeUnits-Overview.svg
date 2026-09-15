@@ -1,21 +1,21 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="186px" preserveAspectRatio="none" style="width:663px;height:186px;background:#FFFFFF;" version="1.1" viewBox="0 0 663 186" width="663px" zoomAndPan="magnify">
-  <ns0:title>CodeUnits of PtN</ns0:title>
-  <ns0:defs />
-  <ns0:g>
-    <ns0:g class="title" data-source-line="1">
-      <ns0:text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="115.1035" x="267.1047" y="24.5332">CodeUnits of PtN</ns0:text>
-    </ns0:g>
-    <ns0:g class="entity" data-entity="PtN" data-source-line="3" data-uid="ent0002" id="entity_PtN">
-      <ns0:rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="63.3379" x="299.5" y="45.6094" />
-      <ns0:rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="342.8379" y="50.6094" />
-      <ns0:rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="340.8379" y="52.6094" />
-      <ns0:rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="340.8379" y="56.6094" />
-      <ns0:text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23.3379" x="314.5" y="80.1426">PtN</ns0:text>
-    </ns0:g>
-    <ns0:g class="entity" data-entity="PtNNote" data-source-line="5" data-uid="ent0003" id="entity_PtNNote">
-      <ns0:path d="M6,153.6094 L6,179.9609 A0,0 0 0 0 6,179.9609 L656.313,179.9609 A0,0 0 0 0 656.313,179.9609 L656.313,163.6094 L646.313,153.6094 L335,153.6094 L331,94.0894 L327,153.6094 L6,153.6094 A0,0 0 0 0 6,153.6094" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
-      <ns0:path d="M646.313,153.6094 L646.313,163.6094 L656.313,163.6094 L646.313,153.6094" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
-      <ns0:text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="629.313" x="12" y="172.1045">PtN is a proxy to receive events from an prometheus-alertmanager-server and forwards them to a ntfy-server.</ns0:text>
-    </ns0:g>
-  </ns0:g>
-</ns0:svg>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" data-diagram-type="DESCRIPTION" style="width:762px;height:190px;background:#FFFFFF;" width="762px" height="190px" viewBox="0 0 762 190" zoomAndPan="magnify" preserveAspectRatio="none" contentStyleType="text/css">
+  <defs />
+  <g font-family="sans-serif" lengthAdjust="spacing">
+    <g class="title" data-source-line="2">
+      <text x="310.531" y="22.995" fill="#000" font-size="14" textLength="134.695" font-weight="700" font-family="'DejaVu Sans'">CodeUnits of PtN</text>
+    </g>
+    <g class="entity" data-qualified-name="PtN" id="ent0001" data-source-line="4">
+      <rect x="344.68" y="44.297" width="64.404" height="46.297" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;" rx="2.5" ry="2.5" />
+      <rect x="389.084" y="49.297" width="15" height="10" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;" />
+      <rect x="387.084" y="51.297" width="4" height="2" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;" />
+      <rect x="387.084" y="55.297" width="4" height="2" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;" />
+      <text x="359.68" y="77.292" fill="#000" font-size="14" textLength="24.404" font-family="'DejaVu Sans'">PtN</text>
+    </g>
+    <g class="entity" data-qualified-name="PtNNote" id="ent0002" data-source-line="6">
+      <path d="M6,150.597 L6,175.73 A0,0 0 0 0 6,175.73 L747.757,175.73 A0,0 0 0 0 747.757,175.73 L747.757,160.597 L737.757,150.597 L380.88,150.597 L376.88,90.657 L372.88,150.597 L6,150.597 A0,0 0 0 0 6,150.597" style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD" />
+      <path d="M737.757,150.597 L737.757,160.597 L747.757,160.597 L737.757,150.597" style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD" />
+      <text x="12" y="167.664" fill="#000" font-size="13" textLength="720.757" font-family="'DejaVu Sans'">PtN is a proxy to receive events from an prometheus-alertmanager-server and forwards them to a ntfy-server.</text>
+    </g>
+  </g>
+</svg>
