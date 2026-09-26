@@ -1,0 +1,7 @@
+ImageName;UpstreamRegistryAddress;DefaultTag
+Alpine;docker.io/library/alpine;3.23.2
+Go;docker.io/library/golang;1.27.1-alpine
+Syft;docker.io/anchore/syft;v1.41.0
+SCBuilder;aniondev/scbuilder;v1.2.13
+Betterleaks;ghcr.io/betterleaks/betterleaks;v1.4.1
+PlantUML;plantuml/plantuml;1.2026.8
