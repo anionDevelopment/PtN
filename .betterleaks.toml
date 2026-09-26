@@ -1,0 +1,13 @@
+title = "Betterleaks configuration for PtN"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Development-only CA and development-certificate which are intentionally part of the repository"
+paths = [
+    '''(^|/)Other/Resources/CA/PtNCA_[0-9]+\.key$''',
+    '''(^|/)Other/Resources/DevelopmentCertificate/PtNDevelopmentCertificate\.key$''',
+    '''(^|/)Other/Resources/DevelopmentCertificate/PtNDevelopmentCertificate\.pfx$''',
+    '''(^|/)Other/Resources/DevelopmentCertificate/PtNDevelopmentCertificate\.selfsigned\.pfx$''',
+]
